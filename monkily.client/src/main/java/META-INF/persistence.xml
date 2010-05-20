@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+        http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd" version="1.0">
+
+    <persistence-unit name="transactions-optional">
+        <provider>org.datanucleus.store.appengine.jpa.DatastorePersistenceProvider</provider>
+        <properties>
+            <property name="datanucleus.NontransactionalRead" value="true"/>
+            <property name="datanucleus.NontransactionalWrite" value="true"/>
+            <property name="javax.persistence.jdbc.url" value="appengine"/>
+<!--            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>-->
+<!--            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/monkily"/>-->
+<!--            <property name="javax.persistence.jdbc.username" value="root"/>-->
+<!--            <property name="javax.persistence.jdbc.password" value="xU7aSt4JdJFSe7t7Ye2REtRe"/>  -->
+            
+<!--            <property name="datanucleus.storeManagerType" value="rdbms"/>-->
+<!--            <property name="datanucleus.autoCreateSchema" value="true"/>-->
+<!--            <property name="datanucleus.autoCreateTables" value="true"/>-->
+<!--            <property name="datanucleus.autoCreateColumns" value="true"/>                                  -->
+        </properties>
+        
+<!--        <class>com.monkily.model.User</class>-->
+    </persistence-unit>
+
+</persistence>

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Monkily User
+Bundle-SymbolicName: com.monkily.user
+Bundle-Vendor: Monkily
+Bundle-Version: 1.0.0
+Excluded-Exports: com.monkily.user.internal.*
+Import-Package: javax.sql
+Excluded-Imports: com.monkily.user.* 
+Import-Library: org.hibernate.ejb;version="3.3.2",
+ org.springframework.spring
+Export-Package: com.monkily.user.model,
+ com.monkily.user.service
+

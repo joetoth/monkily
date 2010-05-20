@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:tx="http://www.springframework.org/schema/tx"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+                http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd
+                http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
+
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <description>
+            Loading all properties files from the classpath/spring-properties
+        </description>
+        <property name="searchSystemEnvironment" value="true"/>
+        <property name="ignoreResourceNotFound" value="true"/>
+        <property name="locations">
+            <list>
+                <value>classpath:/monkily.properties</value>
+                <!--please leave the line below in so that we can externalize settings via jvm args e.g. -DmonkilyConfigurationDirectory=file:///opt/admeldTomcat/portalConfiguration/*.properties-->
+                <value>${monkilyConfigurationDirectory}</value>
+                <value>file:///home/joe/monkily/config/monkily.properties</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>

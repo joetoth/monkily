@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://monkily/skin/monkily.css"?>
+
+<overlay xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    
+  <script src="chrome://monkily/content/utils.js" type="application/x-javascript"/>
+  <script src="chrome://monkily/content/sha1.js" type="application/x-javascript"/>
+  <script src="chrome://monkily/content/S3Ajax.js" type="application/x-javascript"/>
+  <script src="chrome://monkily/content/monkily.js" type="application/x-javascript"/>
+<!--
+
+    <vbox id="appcontent">
+
+        <splitter id="monkilySplitter" collapsed="false" />        
+
+        <vbox id="monkilyContainer" collapsed="false">
+
+            <vbox>
+                <toolbox>
+
+                    <toolbar align="right">
+                    
+                        <toolbarbutton id="monkilyCloseButton" class="toolbarbutton-iconic"
+                                       tooltiptext="Close" onmousedown="Monkily.toggle(event);"/>
+
+                    </toolbar>
+
+                </toolbox>
+
+                <vbox height="100" flex="1" id="container"></vbox>
+
+            </vbox>
+
+        </vbox>
+
+    </vbox>
+-->
+
+
+    <statusbar id="status-bar">
+        <statusbarpanel id="monkilyStatusBar"
+                        onmousedown="Monkily.toggle(event);">
+            <image id="monkilyStatusIcon"/>
+            <label id="monkilyStatusText"/>
+        </statusbarpanel>
+    </statusbar>
+
+</overlay>

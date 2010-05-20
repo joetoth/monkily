@@ -1,0 +1,4 @@
+#Sun Jun 21 22:54:02 EDT 2009
+classpath.helper/org.eclipse.jdt.launching.JRE_CONTAINER\:\:org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType\:\:jdk1.6.0_14/owners=jst.java\:6.0
+classpath.helper/org.eclipse.jst.server.core.container\:\:com.springsource.server.ide.server.core.runtime.classpath\:\:SpringSource\ dm\ Server\ (Runtime)\ v2.0/owners=jst.utility\:1.0
+eclipse.preferences.version=1

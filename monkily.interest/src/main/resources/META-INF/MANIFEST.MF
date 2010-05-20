@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: com.monkily.interest.model;version="1";uses:="javax.pe
+ rsistence",com.monkily.interest.service;version="1"
+Bundle-Vendor: Monkily
+Application-TraceLevels: *=info,com.monkily.*=debug
+Bundle-Version: 1
+Bundle-Name: Monkily Interest
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.monkily.interest
+Import-Package: com.monkily.content.service,com.monkily.utils,com.mysq
+ l.jdbc.jdbc2.optional,javax.persistence,org.apache.commons.logging,or
+ g.hibernate.ejb,org.jets3t.service,org.jets3t.service.impl.rest.httpc
+ lient,org.jets3t.service.model,org.jets3t.service.security,org.spring
+ framework.beans.factory,org.springframework.beans.factory.annotation,
+ org.springframework.beans.factory.config,org.springframework.orm.jpa,
+ org.springframework.orm.jpa.vendor,org.springframework.stereotype,org
+ .springframework.transaction.annotation
+

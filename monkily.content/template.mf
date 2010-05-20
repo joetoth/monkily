@@ -1,0 +1,11 @@
+Bundle-ManifestVersion: 2
+Bundle-Name: Monkily Content
+Bundle-SymbolicName: com.monkily.content
+Bundle-Vendor: Monkily
+Bundle-Version: 1.0.0
+Import-Package: javax.sql
+Import-Library: org.hibernate.ejb,
+ org.springframework.spring
+Excluded-Exports: com.monkily.content.internal.*
+Excluded-Imports: com.monkily.content.*
+Import-Bundle: com.opencalais.client;version="[1.0.0,1.0.0]"

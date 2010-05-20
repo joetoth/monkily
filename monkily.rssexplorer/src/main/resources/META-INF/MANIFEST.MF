@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Export-Package: com.monkily.rssexplorer.model;version="1.0.0";uses:="j
+ avax.persistence",com.monkily.rssexplorer.service;version="1.0.0"
+Import-Bundle: com.monkily.utils;version="[1.0.0,1.0.0]",com.monkily.u
+ ser;version="[1.0.0,1.0.0]",com.monkily.content;version="[1.0.0,1.0.0
+ ]",com.springsource.org.jdom;version="[1.0.0,1.0.0]",com.springsource
+ .com.sun.syndication;version="[1.0.0,1.0.0]"
+Bundle-Vendor: Monkily
+Application-TraceLevels: *=info,com.monkily.*=debug
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.BUILD-20090616142719
+Bundle-Name: Monkily RssExplorer
+Import-Library: org.hibernate.ejb;version="[3.3.2.GA,3.4.0)",org.sprin
+ gframework.spring
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.monkily.rssexplorer
+Import-Package: com.monkily.content.model,com.monkily.content.service,
+ com.monkily.utils,com.mysql.jdbc.jdbc2.optional,com.sun.syndication.f
+ eed.synd,com.sun.syndication.io,javax.persistence,javax.sql,org.apach
+ e.commons.httpclient,org.apache.commons.httpclient.methods,org.apache
+ .commons.logging,org.hibernate.ejb,org.springframework.beans.factory,
+ org.springframework.beans.factory.annotation,org.springframework.bean
+ s.factory.config,org.springframework.orm.jpa,org.springframework.orm.
+ jpa.vendor,org.springframework.osgi.context.event,org.springframework
+ .stereotype,org.springframework.transaction.annotation
+

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Open Calais Client
+Bundle-SymbolicName: com.opencalais.client
+Bundle-Vendor: Open Calais
+Bundle-Version: 1
+Excluded-Exports: com.opencalais.client.internal.*
+Excluded-Imports: com.opencalais.client.*

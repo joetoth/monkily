@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Export-Package: com.monkily.user.model;version="1.0.0",com.monkily.use
+ r.service;version="1.0.0"
+Bundle-Vendor: Monkily
+Bundle-Version: 1.0.0
+Bundle-Name: Monkily User
+Import-Library: org.hibernate.ejb;version="3.3.2",org.springframework.
+ spring
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.monkily.user
+Import-Package: com.mysql.jdbc.jdbc2.optional,javax.persistence,javax.
+ sql,org.hibernate.ejb,org.springframework.beans.factory.config,org.sp
+ ringframework.orm.jpa,org.springframework.orm.jpa.vendor,org.springfr
+ amework.stereotype
+

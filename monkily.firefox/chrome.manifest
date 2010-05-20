@@ -1,0 +1,4 @@
+content monkily chrome/content/monkily/ contentaccessible=yes
+content monkily chrome/content/monkily/
+overlay chrome://browser/content/browser.xul chrome://monkily/content/monkily.xul
+skin	monkily	classic/1.0	skin/

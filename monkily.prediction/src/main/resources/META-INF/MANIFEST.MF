@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Export-Package: com.monkily.prediction.model;version="1";uses:="javax.
+ persistence",com.monkily.prediction.service;version="1"
+Bundle-Vendor: Monkily
+Bundle-Version: 1
+Bundle-Name: Monkily Prediction
+Bundle-ManifestVersion: 2
+Import-Package: com.monkily.content.model,com.monkily.content.service,
+ com.monkily.interest.model,com.monkily.interest.service,com.monkily.u
+ ser.model,com.monkily.user.service,com.monkily.utils,com.mysql.jdbc.j
+ dbc2.optional,javax.persistence,org.apache.commons.logging,org.spring
+ framework.beans.factory.annotation,org.springframework.beans.factory.
+ config,org.springframework.orm.jpa,org.springframework.orm.jpa.vendor
+ ,org.springframework.stereotype,org.springframework.transaction.annot
+ ation
+Bundle-SymbolicName: com.monkily.prediction
+

@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: com.monkily.content.model;version="1.0.0";uses:="javax
+ .persistence",com.monkily.content.service;version="1.0.0";uses:="com.
+ monkily.content.model",com.monkily.content.test;version="1.0.0"
+Import-Bundle: com.opencalais.client;version="[1.0.0,1.0.0]"
+Bundle-Vendor: Monkily
+Bundle-Version: 1.0.0
+Bundle-Name: Monkily Content
+Import-Library: org.hibernate.ejb,org.springframework.spring
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.monkily.content
+Import-Package: com.monkily.utils,com.mysql.jdbc.jdbc2.optional,com.op
+ encalais.client,com.opencalais.client.model,javax.persistence,javax.s
+ ql,org.apache.commons.logging,org.hibernate.ejb,org.springframework.b
+ eans.factory.annotation,org.springframework.beans.factory.config,org.
+ springframework.orm.jpa,org.springframework.orm.jpa.vendor,org.spring
+ framework.stereotype,org.springframework.transaction.annotation
+

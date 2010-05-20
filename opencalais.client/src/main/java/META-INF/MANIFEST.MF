@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Export-Package: com.opencalais.client;version="1";uses:="com.opencalai
+ s.client.model",com.opencalais.client.model;version="1"
+Bundle-Vendor: Open Calais
+Bundle-Version: 1
+Bundle-Name: Open Calais Client
+Bundle-ManifestVersion: 2
+Import-Package: javax.xml.parsers,org.w3c.dom,org.xml.sax
+Bundle-SymbolicName: com.opencalais.client
+

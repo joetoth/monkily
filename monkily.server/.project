@@ -1,0 +1,33 @@
+<projectDescription>
+  <name>monkily.server</name>
+  <comment/>
+  <projects>
+    <project>monkily.content</project>
+    <project>monkily.utils</project>
+    <project>opencalais.client</project>
+    <project>monkily.dataTransfer</project>
+    <project>monkily.prediction</project>
+    <project>monkily.user</project>
+    <project>monkily.interest</project>
+    <project>monkily.rssexplorer</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+      <arguments/>
+    </buildCommand>
+    <buildCommand>
+      <name>org.maven.ide.eclipse.maven2Builder</name>
+      <arguments/>
+    </buildCommand>
+    <buildCommand>
+      <name>org.springframework.ide.eclipse.core.springbuilder</name>
+      <arguments/>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.springframework.ide.eclipse.core.springnature</nature>
+    <nature>org.maven.ide.eclipse.maven2Nature</nature>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

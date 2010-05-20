@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Export-Package: com.monkily.utils;version="1.0.0"
+Import-Bundle: com.springsource.com.dumbster.smtp;version="[1.6.0,1.6.
+ 0]"
+Unversioned-Imports: javax.sql
+Bundle-Vendor: Monkily
+Class-Path: 
+Bundle-Version: 1.0.0
+Bundle-Name: Monkily Utils
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.monkily.utils
+Import-Package: com.dumbster.smtp,com.google.gson,javax.persistence,or
+ g.apache.commons.httpclient,org.apache.commons.httpclient.methods
+

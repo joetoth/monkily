@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Monkily Utils
+Bundle-SymbolicName: com.monkily.utils
+Bundle-Vendor: Monkily
+Bundle-Version: 1.0.0
+Export-Package: com.monkily.utils
+Import-Bundle: com.springsource.com.dumbster.smtp;version="[1.6.0,1.6.0]"

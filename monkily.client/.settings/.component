@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+  <wb-module deploy-name="monkily.client">
+    <property context-root="monkily.client"/>
+    <wb-resource deploy-path="/" source-path="home/joe/monkily/monkily.client/war"/>
+    <property name="java-output-path" value="/war/WEB-INF/classes"/>
+    <wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+  </wb-module>
+</project-modules>

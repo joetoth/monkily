@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Monkily Interest
+Bundle-SymbolicName: com.monkily.interest
+Bundle-Vendor: Monkily
+Bundle-Version: 1
+Excluded-Exports: com.monkily.interest.internal.*
+Import-Template: 
+ javax.sql;version=0
+Excluded-Imports: com.monkily.interest.*

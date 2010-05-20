@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Export-Package: com.monkily.content.test;version="1",com.monkily.dataT
+ ransfer.model;version="1";uses:="javax.persistence",com.monkily.dataT
+ ransfer.service;version="1"
+Bundle-Vendor: Monkily
+Bundle-Version: 1
+Bundle-Name: Monkily Data Transfer
+Bundle-ManifestVersion: 2
+Import-Package: com.google.gson,com.google.gson.reflect,com.monkily.co
+ ntent.internal.service.impl,com.monkily.content.model,com.monkily.con
+ tent.service,com.monkily.interest.service,com.monkily.prediction.mode
+ l,com.monkily.prediction.service,com.monkily.user.model,com.monkily.u
+ ser.service,com.monkily.utils,com.mysql.jdbc.jdbc2.optional,javax.per
+ sistence,org.springframework.beans.factory.annotation,org.springframe
+ work.beans.factory.config,org.springframework.orm.jpa,org.springframe
+ work.orm.jpa.vendor,org.springframework.stereotype,org.springframewor
+ k.transaction.annotation
+Bundle-SymbolicName: com.monkily.dataTransfer
+
